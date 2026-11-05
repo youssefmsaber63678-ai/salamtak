@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>سلامتك – دليلك الصحي</title>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="md" id="m1"><div class="box">
+<h2>أهلاً بيك في سلامتك</h2>
+<p>إنت داخل علشان إيه؟</p>
+<div class="ch">
+<button id="bp">أنا مريض وعايز أحجز أو ألاقي خدمة</button>
+<button class="o" id="bd">أنا دكتور وعايز أسجل عيادتي</button>
+</div></div></div>
+<div class="md" id="m2" hidden><div class="box">
+<h2>تسجيل الأطباء والعيادات</h2>
+<p>علشان نحمي المرضى، مفيش تسجيل مباشر على الموقع. كل عيادة بتتضاف بعد مراجعة أوراقها:</p>
+<ol><li>اتصل بنا على: <b>01XXXXXXXXX</b></li><li>أو قدّم الأوراق في مقر المنصة: <b>الواسطى – بني سويف</b></li><li>الأوراق: بطاقة الرقم القومي، ترخيص مزاولة المهنة، كارنيه النقابة، ترخيص العيادة</li><li>بعد المراجعة والموافقة بنضيف عيادتك على المنصة</li></ol>
+<button id="cl">تمام، فهمت</button></div></div>
+<div id="toast"></div>
+
+<header><div class="w">
+<div class="top"><span class="logo">سلامتك</span><button class="o" id="bd2" style="color:#E6ECE2;border-color:#E6ECE2">للأطباء</button></div>
+<div class="hero">
+<h1>صحتك أقرب مما تتخيل</h1>
+<p>دكتور، مستشفى، معمل أو صيدلية؟ كل اللي تدور عليه في مكان واحد، وفي مركزك.</p>
+<div class="search"><input id="q" placeholder="ابحث عن دكتور، دواء، معمل..." aria-label="بحث"></div>
+</div></div></header>
+
+<main class="w">
+<nav id="nav"></nav>
+<div class="loc">
+<div><label for="gov">المحافظة</label><select id="gov"></select></div>
+<div><label for="mk">المركز / المنطقة</label><select id="mk"></select></div>
+</div>
+<div id="sub" class="sub"></div>
+<div id="chips" class="chips"></div>
+<h2 id="ttl"></h2>
+<div class="grid" id="out"></div>
+<div class="note">أسماء الأطباء والتقييمات والمواعيد تجريبية لشكل الموقع، وهتتبدل ببيانات حقيقية بعد مراجعة كل جهة. أسماء المستشفيات والمعامل والصيدليات الشهيرة أسماء حقيقية، لكن التقييمات تجريبية.</div>
+<button id="more" class="more" hidden>عرض المزيد</button>
+</main>
+<footer><div class="w">سلامتك – منصة صحية لأهالي بني سويف. للتواصل: 01XXXXXXXXX</div></footer>
+
+<script src="script.js"></script>
+</body>
+</html>
